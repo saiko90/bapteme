@@ -27,10 +27,10 @@ const DATA = {
   verse: "L'Éternel est ma lumière et mon salut.",
   verseReference: "Psaume 27:1",
   church: {
-    name: "Église Saint-Sulpice",
-    address: "2 Rue Palatine, 75006 Paris",
+    name: "Chapelle Saint Roch",
+    address: "19 rue de Saint-Roch, 1004 Lausanne",
     time: "10h30",
-    map: "https://goo.gl/maps/example"
+    map: "https://maps.app.goo.gl/GAQfGBjNYkbvD5uC6"
   },
   reception: {
     name: "Chapelle de Saint-Roch",
@@ -154,7 +154,7 @@ function HeroSection() {
           <div className="inline-flex items-center gap-4 text-slate-500 font-sans text-sm uppercase tracking-widest border-y border-amber-200 py-3 px-8 bg-white/50 backdrop-blur-sm rounded-full">
              <span>{DATA.date}</span>
              <span className="w-1 h-1 bg-amber-400 rounded-full"></span>
-             <span>Paris</span>
+             <span>Lausanne</span>
           </div>
        </motion.div>
 
