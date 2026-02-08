@@ -33,10 +33,10 @@ const DATA = {
     map: "https://maps.app.goo.gl/GAQfGBjNYkbvD5uC6"
   },
   reception: {
-    name: "Chapelle de Saint-Roch",
-    address: "Rue de St-Roch 19, 1004Lausanne",
+    name: "Lausanne Palace",
+    address: "Rue du Grand-chêne 9, 1003 Lausanne",
     time: "12h30",
-    map: "https://maps.app.goo.gl/GAQfGBjNYkbvD5uC6"
+    map: "https://maps.app.goo.gl/C5FW9VBpUNJJzuet7"
   },
   images: {
     hero: "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=1920&auto=format&fit=crop", // Church Interior Light
