@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
+import NeoCardFloatingBadge from './components/NeoCardFloatingBadge';
 import { 
   Cross, 
   Sun, 
@@ -32,10 +33,10 @@ const DATA = {
     map: "https://goo.gl/maps/example"
   },
   reception: {
-    name: "Jardin des Tuileries (Pavillon)",
-    address: "113 Rue de Rivoli, 75001 Paris",
+    name: "Chapelle de Saint-Roch",
+    address: "Rue de St-Roch 19, 1004Lausanne",
     time: "12h30",
-    map: "https://goo.gl/maps/example"
+    map: "https://maps.app.goo.gl/GAQfGBjNYkbvD5uC6"
   },
   images: {
     hero: "https://images.unsplash.com/photo-1515162305285-0293e4767cc2?q=80&w=1920&auto=format&fit=crop", // Church Interior Light
@@ -80,6 +81,7 @@ export default function BaptismPage() {
       <VerseSection />
       <CeremonyDetails />
       <BabySection />
+      <NeoCardFloatingBadge theme="light" />
       
       {/* RSVP Fixed Button */}
       <div className="fixed bottom-8 left-0 right-0 z-50 flex justify-center pointer-events-none">
